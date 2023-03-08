@@ -1,0 +1,152 @@
+
+            /* Mon commentaire CSS */
+            *{
+                overflow: auto;
+            }
+
+            body{
+                background-color: #8BA1BB;
+                font-family: Arial;
+                margin: 0;
+                padding: 0;
+                
+            }
+
+            p.categorie{
+                background-color: black;
+                color: white;   
+                padding: 8px 20px;
+                display: inline-block;
+                margin-bottom: 0;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .contenu{
+                background-color: white;
+                margin: 0px 10% 80px 10%;
+                padding: 30px;
+                box-shadow: 0 0 100px 1px rgb(0, 0, 0, 0.5);
+            }
+
+            h1{
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            
+
+            .centre{
+                text-align: center;
+            }
+
+            p.description{
+                max-width: 400px;
+                display: inline-block;
+            }
+
+            div.categorie{
+                margin-bottom: -15px;
+            }
+
+            div.separateur{
+                width: 100px;
+                height: 1px;
+                background-color: black;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            div.info{
+                position: relative;
+            }
+
+            img.info{
+                width: 100%;
+                display: block;
+                max-height: 400px;
+                min-height: 400px;
+                object-fit: cover;
+                background-color: lightgray;
+            }
+
+            table.info{
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                background-color: #6c829dC0;
+                color: white;
+                height: 80px;
+            }
+
+            table.info th{
+                font-size: 16px;
+                padding-bottom: 3px;
+            }
+
+            table.info td{
+                font-size: 14px;
+                vertical-align: top;
+            }
+
+            .colonne{
+                width: 45%;
+                margin-top: 30px;
+            }
+
+            div.colonne h2{
+                text-transform: uppercase;
+                font-size: 15px;
+                border-bottom: solid #6c829d 5px;
+                padding-bottom: 5px;
+            }
+
+            .colonne1{
+                display: inline-block;
+                /*margin-right: 10%;*/
+            }
+
+            .colonne2{
+                float:right;
+            }
+
+            div.ingredients p{
+                display: block;
+                border: 1px solid lightgray;
+                margin-top: 5px;
+                margin-bottom:  0px;
+                padding: 8px;
+            }
+
+            .numero{
+                background-color: #6c829d;
+                color: white;
+                width: 25px;
+                height: 25px;
+                font-weight: bold;
+                padding-top: 4px;
+                box-sizing: border-box;
+                display: block;
+                border-radius: 50%;
+            }
+
+            table.preparation tr{
+                height: 40px;
+            }
+
+            table.preparation td{
+                vertical-align: top;
+            }
+
+            table.preparation td.preparation_etape{
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+
+            .px_size{
+                font-size: 14px;
+            }
+
+            table.preparation tr{
+                width: 100%;
+                height: 40px;
+            }
